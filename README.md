@@ -1,20 +1,20 @@
 fluid-simulator-v2
 ==================
 
-2D Fluid Simulator implementing all the main algorithms like SPH, MPM and PBF.
+<b>2D Fluid Simulator implementing all the main algorithms like SPH, MPM and PBF.</b>
 
-Current revision: 2.1
+<b>Current revision: 2.1</b>
 
-Author: Simone Autore (aka Sippolo)
+<b>Author: Simone Autore (aka Sippolo)</b>
 
 2D Fluid simulator developed in Java and OpenGL. The software makes use of the awesome OpenGL LibGDX Framework. Here is a link to the official website: http://libgdx.badlogicgames.com/
 
 This simulator implements the following solvers:
 
-- MPM - Material Point Method
-- SPH - Viscoelastic Smoothed Particle Hydrodynamics
-- LIQUID - Heavily customized and optimized SPH (NOTE: Box2D two-way coupling currently works only with this solver)
-- PBF - Position Based Fluid
+- <b>MPM - Material Point Method</b>
+- <b>SPH - Viscoelastic Smoothed Particle Hydrodynamics</b>
+- <b>LIQUID - Heavily customized and optimized SPH</b> (NOTE: Box2D two-way coupling currently works only with this solver)
+- <b>PBF - Position Based Fluid</b>
 
 You will find the config.properties and the v2.1 (as well as older versions) jar files in the binaries directory, use the properties to select the solver algorithm and simply execute the jar to test the simulator.
 
@@ -24,10 +24,10 @@ BIG NOTE: just like the fluid simulator v1, this project has always been under d
 
 <b>Paper sources</b>
 
-Viscoelastic Smoothed Particle Hydrodynamics - "Particle-based Viscoelastic Fluid Simulation" by Simon Clavet, Philippe Beaudoin, and Pierre Poulin, which can be found here: http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf
-Material Point Method - credits and many thanks go to Grant Kot who implemented the original algorithm, which I have ported to Java. You can find his Github profile here: https://github.com/kotsoft
-Position Based Fluids - from Mathias Muller and Miles Macklin, you can find the original article here: http://matthias-mueller-fischer.ch/publications/pbf_sig_preprint.pdf
-Liquid Custom SPH - The basic idea comes from the LiquidTest offered in jbox2D (http://www.jbox2d.org/liquid/), although I heavily modified it, including viscoelasticity, plasticity, custom box2d coupling and other optimizations.
+- Viscoelastic Smoothed Particle Hydrodynamics - "Particle-based Viscoelastic Fluid Simulation" by Simon Clavet, Philippe Beaudoin, and Pierre Poulin, which can be found here: http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf
+- Material Point Method - credits and many thanks go to Grant Kot who implemented the original algorithm, which I have ported to Java. You can find his Github profile here: https://github.com/kotsoft
+- Position Based Fluids - from Mathias Muller and Miles Macklin, you can find the original article here: http://matthias-mueller-fischer.ch/publications/pbf_sig_preprint.pdf
+- Liquid Custom SPH - The basic idea comes from the LiquidTest offered in jbox2D (http://www.jbox2d.org/liquid/), although I heavily modified it, including viscoelasticity, plasticity, custom box2d coupling and other optimizations.
 
 You can find various video clips of this project on my YouTube channel, for example:
 
