@@ -37,15 +37,15 @@ http://www.youtube.com/watch?v=UKlkk3uCdJs
 
 I will likely make a new video showing most of v2.1 features coming soon.
 
-    IDE Integration:
+<b>IDE Integration</b>
 
 You should be able to import the project directly into Eclipse and compile it without issues.
 
-    Android Platform
+<b>Android Platform</b>
 
 This release is mostly aimed to Desktop, but if you wish to run the simulator on Android platform, you just need to compile the android project against the Android SDK and LibGDX libraries (included). Also make sure to change the static variables within the main project source (mainly IS_DESKTOP=false) and you should be good to go.
 
-    Run instructions:
+<b>Run instructions</b>
 
 Make sure you have jre6+ installed, then:
 
@@ -57,7 +57,7 @@ If you have both 32 and 64 bit Java jre installed on your machine: please run th
 
 Note that the hud is mostly tailored for 1920x1080 full screen resolution, but you can easily tweak it from the source code as you like.
 
-    Commands
+<b>Commands</b>
 
 Keyboard commands:
 
