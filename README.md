@@ -31,11 +31,16 @@ BIG NOTE: just like the fluid simulator v1, this project has always been under d
 
 You can find various video clips of this project on my YouTube channel, for example:
 
+v2.1:
+
+https://www.youtube.com/watch?v=dK21hxAkto8
+
+older versions:
+
 http://www.youtube.com/watch?v=q-7Z8bRgAfM
 
 http://www.youtube.com/watch?v=UKlkk3uCdJs
 
-I will likely make a new video showing most of v2.1 features coming soon.
 
 <b>IDE Integration</b>
 
