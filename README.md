@@ -22,7 +22,7 @@ Note that the simulation is rendered on CPU only, precisely one core.
 
 BIG NOTE: just like the fluid simulator v1, this project has always been under development and not much effort was put in making it very clean and beautiful, therefore please forgive me if you will find a lot of commented and unoptimized code, although I tried my best to maintain very good performance for a java simulation like this.
 
-    Paper sources:
+<b>Paper sources</b>
 
 Viscoelastic Smoothed Particle Hydrodynamics - "Particle-based Viscoelastic Fluid Simulation" by Simon Clavet, Philippe Beaudoin, and Pierre Poulin, which can be found here: http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf
 Material Point Method - credits and many thanks go to Grant Kot who implemented the original algorithm, which I have ported to Java. You can find his Github profile here: https://github.com/kotsoft
