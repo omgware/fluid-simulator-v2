@@ -50,6 +50,7 @@ You should be able to import the project directly into Eclipse and compile it wi
 
 This release is mostly aimed to Desktop, but if you wish to run the simulator on Android platform, you just need to compile the android project against the Android SDK and LibGDX libraries (included). Also make sure to change the static variables within the main project source (mainly IS_DESKTOP=false) and you should be good to go.
 
+
 <b>Run instructions</b>
 
 Make sure you have jre6+ installed, then:
@@ -61,6 +62,12 @@ Also note that the config.properties only works with v2.1 jar file.
 If you have both 32 and 64 bit Java jre installed on your machine: please run this simulation on a 64bit jre by running the "FluidSimulator x64.bat" file, making sure to set the correct jre6+ x64 path within (just edit it with a plain text editor) and the right fluid simulator jar. Note that the simulation is really faster and smoother on 64 bit environments, so if you have one, for your best experience you really want to run it on jre6+ x64.
 
 Note that the hud is mostly tailored for 1920x1080 full screen resolution, but you can easily tweak it from the source code as you like.
+
+
+<b>Accuracy and Performance</b>
+
+Gravity is one of those settings that most affects simulation stability. Gravity is also a cheap way to increase the simulation speed, but having it too high will make the simulation explode. To increase the simulation speed it's best to maintain gravity low and tune the speedMultiplier variable in the source, which is the number of times the simulation is run on each time step. This will obviously decrease the performance, but the simulation accuracy and speed will be much improved.
+
 
 <b>Commands</b>
 
