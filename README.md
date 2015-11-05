@@ -33,13 +33,16 @@ You can find various video clips of this project on my YouTube channel, for exam
 
 v2.1:
 
-https://www.youtube.com/watch?v=dK21hxAkto8
+[![Alt text for your video](http://img.youtube.com/vi/dK21hxAkto8/0.jpg)](http://www.youtube.com/watch?v=dK21hxAkto8)
+link: http://www.youtube.com/watch?v=dK21hxAkto8
 
 older versions:
 
-http://www.youtube.com/watch?v=q-7Z8bRgAfM
+[![Alt text for your video](http://img.youtube.com/vi/q-7Z8bRgAfM/0.jpg)](http://www.youtube.com/watch?v=q-7Z8bRgAfM)
+link: http://www.youtube.com/watch?v=q-7Z8bRgAfM
 
-http://www.youtube.com/watch?v=UKlkk3uCdJs
+[![Alt text for your video](http://img.youtube.com/vi/UKlkk3uCdJs/0.jpg)](http://www.youtube.com/watch?v=UKlkk3uCdJs)
+link: http://www.youtube.com/watch?v=UKlkk3uCdJs
 
 
 <b>IDE Integration</b>
